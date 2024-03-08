@@ -1,0 +1,68 @@
+<!doctype html>
+<html> 
+ <head> 
+  <title>Data Siswa MAN Batam</title> 
+  <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image : url ('https://drive.google.com/uc?id=19DOs4gRZWYJ9S7J8UN9dyoz99KhBMtuy');
+            background-size : cover;
+            background-position : center;
+        }
+        .container {
+            width: 500px;
+            padding: 16px;
+            background-color: #FFFBE7;
+            margin: 0 auto;
+            margin-top: 500px;
+            border: 1px solid black;
+            border-radius: 4px;
+            text-align: center;
+        }
+        input[type=text] {
+            width: 485px ;
+            padding: 12px 20px;
+            margin: 8px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-color: blue;
+            box-sizing: border-box;
+        }
+    
+    </style> 
+ </head> 
+ <body> 
+  <div class="container"> 
+   <h2>Data Siswa MAN Batam</h2> 
+   <form action="/login" method="post"> <label for="Username">Masukkan Nama :</label> 
+    <br> 
+    <input type="text" id="username" name="username"> 
+    <input type="button" value="Cek data" style="background-color: #4CAF50; color: white; padding: 14px 20px; margin: 16px 0; border: 1px solid #ccc border-radius: 4px; cursor: pointer;" onclick="cekData()">
+    <br> 
+    <div id="output"></div> 
+    <script src="script.js"></script> 
+   </form> 
+  </div> 
+ 
+<script type="text/javascript" id="dcoder_script">function cekData() {
+    var nama = document.getElementById("username").value;
+    var kelas = "X.10";
+    var output;
+    if (nama === "Ahmad Affandi") {
+        alert ("Nama : " + nama + "\nKelas : " + kelas);
+    } else if (nama === "B") {
+        alert ("Nama : " + nama + "\nKelas : " + kelas);
+    } else {
+        alert ("Nama tidak ditemukan");
+    }
+    
+    }</script></body></html>d("username").value;
+  
+  if (nama === "Ahmad Affandi") {
+    alert ("Nama" + nama + "\nKelas : X.10")
+  }
+  
+  else {
+    alert ("Data tidak ditemukan")
+  }
+}</script></body></html>
